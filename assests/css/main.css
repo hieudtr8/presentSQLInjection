@@ -1,0 +1,66 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url('../img/bank-bg.jpg') !important;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 600px;
+    border-radius: 10px;
+    background: white;
+}
+
+select.form-select {
+    width: 200px;
+    margin: 0px 25px 0px 0px;
+    display: inline-block !important;
+}
+
+label {
+    min-width: 120px;
+}
+
+.form-control {
+    width: 75%;
+    display: inline-block;
+    margin: 0px;
+}
+
+input[type=text] {
+    width: 75%;
+    display: inline-block;
+    margin: 0px;
+}
+
+.error {
+    color: red;
+}
+
+.error-select {
+    display: block;
+}
+
+.error-form input {
+    border-color: #e74c3c;
+
+}
+
+.error-form select {
+    border-color: #e74c3c;
+}
+
+.success input {
+    border-color: #2ecc71;
+}
+
+.success select {
+    border-color: #2ecc71;
+}
